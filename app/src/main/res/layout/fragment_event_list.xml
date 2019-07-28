@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".EventsFragment">
+
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <ImageView
+    android:id="@+id/add_event_button"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="5dp"
+    android:src="@drawable/write2"
+    android:layout_marginEnd="15dp" />
+
+  <!-- 2: contains events and ads with scrollbar-->
+  <androidx.recyclerview.widget.RecyclerView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/event_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:name="com.eventradar.EventFragment"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".EventFragment"
+    tools:listitem="@layout/fragment_event"/>
+
+
+</LinearLayout>
+</FrameLayout>

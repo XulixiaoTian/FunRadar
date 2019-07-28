@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#008577</color>
+  <color name="colorPrimaryDark">#00574B</color>
+  <color name="colorAccent">#D81B60</color>
+  <color name="cuttingLine">#e6e8ea</color>
+  <color name="textGrey">#FF2A3B27</color>
+  <color name="textDarkGrey">#919191</color>
+  <color name="textDarkDarkGrey">#75777A</color>
+  <color name="textDarkGreen">#26362b</color>
+  <color name="actionBar">#358d7f</color>
+  <color name="black">#000000</color>
+  <color name="white">#FFFFFF</color>
+  <color name="blue">#468eec</color>
+</resources>
